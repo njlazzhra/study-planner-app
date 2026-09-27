@@ -1,17 +1,29 @@
-# mobile_usu_pertemuan5
+📚 Study Planner - Aplikasi Aktivitas Belajar
+Aplikasi manajemen aktivitas belajar pribadi berbasis Flutter yang dikembangkan untuk memenuhi tugas individu mata kuliah Pemrograman Mobile.
 
-A new Flutter project.
+🚀 Fitur Utama
+1. **6 Layar Utama:**
+   - **Beranda (*Home*):** Ringkasan statistik aktivitas secara *real-time* dan kartu sapaan pengguna.
+   - **Daftar Aktivitas (*Activity List*):** Menampilkan seluruh aktivitas dengan fitur pencarian & filter kategori/status.
+   - **Detail Aktivitas:** Menampilkan informasi lengkap tugas dengan opsi ubah status atau hapus.
+   - **Tambah & Edit Aktivitas:** Form interaktif dengan validasi lengkap dan *Date Picker*.
+   - **Favorit:** Akses cepat ke aktivitas penting yang ditandai sebagai favorit.
+   - **Profil:** Informasi identitas mahasiswa dan rekapitulasi progres.
+2. **CRUD di Memori:** Operasi *Create, Read, Update, Delete* berjalan interaktif di memori aplikasi.
+3. **Pencarian & Filter Dinamis:** Pencarian teks bebas digabung dengan filter kategori (*Kuliah, Tugas, Ujian, Pribadi*) dan status (*Selesai, Belum Selesai*).
+4. **Dialog Konfirmasi:** Mencegah penghapusan tidak sengaja melalui *AlertDialog*.
 
-## Getting Started
+🛠️ Teknologi & Arsitektur
+- **Framework:** Flutter & Dart
+- **State Management:** Provider (`ChangeNotifier`) sebagai *Single Source of Truth*.
+- **Routing:** GoRouter (dengan *ShellRoute* untuk *Bottom Navigation Bar*).
+- **UI Design:** Material 3, komponen kartu reusable (`ActivityCard`), dan *Responsive Layout*.
 
-This project is a starting point for a Flutter application.
+📦 Daftar Versi Package (`pubspec.yaml`)
+- `flutter`: SDK bawaan
+- `provider`: `^6.1.2`
+- `go_router`: `^14.2.0`
+- `cupertino_icons`: `^1.0.8`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+By Najla Az Zahra Tanjung (241401136)
+Pemrograman Mobile - Universitas Sumatera Utara 
